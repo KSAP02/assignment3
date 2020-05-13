@@ -1,0 +1,99 @@
+@media (max-width: 767px){
+.navbar-brand h1{
+	margin:0px;
+	color:black;
+	font-family: 'Balsamiq Sans', cursive;
+	font-size: 1.8em;
+}
+.navbar-brand{
+	padding-left:35px;
+}
+.navbar-header{
+	height:70px;
+	border:3px solid black;
+	background-color: #ABABA7;
+}
+.navbar-header .navbar-toggle,.navbar-header .icon-bar{
+	border:2px solid black;
+	color:black;
+}
+.navbar-header .navbar-toggle{
+	margin-top:10px;
+}
+#collapsable-nav{
+	border:2px solid black;
+	border-top: 0;
+}
+#nav-list {
+	margin-top: 0;
+	margin-bottom:0;
+}
+#nav-list li{
+	font-family: 'Balsamiq Sans', cursive;
+	border-top: 2px solid black;
+	text-align: center;
+	padding: 2px 0;
+	font-size: 1.3em;
+}
+#nav-list .chicken{
+	border-top:0;
+}
+#main-content{
+	margin-top:20px;
+	padding:0 50px;
+}
+#chicken{
+	background-color: #ABABA7;
+    font-family: 'Balsamiq Sans', cursive;
+    color:black;
+    margin-top:20px;
+}
+#chicken h3{
+	text-align: center;
+}
+#main-content #our-menu{
+text-align: center;
+font-size: 2.2em;
+font-family: 'Balsamiq Sans', cursive;
+color:black;
+}
+}
+
+@media (min-width: 768px){
+	#header-nav{
+		background-color: #ABABA7;
+	}
+	.navbar-brand h1{
+		margin:0;
+		color:black;
+		font-family: 'Balsamiq Sans', cursive;
+		font-size:2em;
+	}
+	#header-nav{
+		height:80px;
+		border:3px solid black;
+	}
+	#main-content #our-menu{
+		font-family: 'Balsamiq Sans', cursive;
+        text-align:center;
+        margin-top:20px;
+        font-size: 2.4em;
+	}
+	#main-content #chicken{
+		background-color: #ABABA7;
+		margin-top:20px;
+		font-size:20px;
+		font-family: 'Balsamiq Sans', cursive;
+		color:black;
+		margin-bottom:20px;
+	}
+	.container{
+		margin: 0px;
+		width:100%;
+	}
+	#main-content #chicken h3{
+		text-align: center;
+		font-size:1.6em;
+	}
+}
+
